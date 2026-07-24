@@ -1,0 +1,16 @@
+[package]
+name = "liegos-cli"
+version = "0.1.0"
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[[bin]]
+name = "liegos"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+liegos-core = { path = "../liegos-core" }
+serde_json.workspace = true

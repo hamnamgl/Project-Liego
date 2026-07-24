@@ -1,0 +1,19 @@
+{
+  "name": "default",
+  "version": "0.1.0",
+  "description": "Baseline ontology for local meaning packets.",
+  "dimensions": [
+    {
+      "name": "length",
+      "description": "Number of bytes in the source text."
+    },
+    {
+      "name": "average_byte",
+      "description": "Average byte value across the source text."
+    },
+    {
+      "name": "vowel_ratio",
+      "description": "Approximate vowel density in the source text."
+    }
+  ]
+}
